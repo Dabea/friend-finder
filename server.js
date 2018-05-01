@@ -9,7 +9,11 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
  
 app.get('/', function (req, res) {
-    res.send("Home Page")
+    res.sendfile("home.html")
+})
+
+app.get('/survey', function (req, res) {
+    res.sendfile("survey.html")
 })
 
 app.get('/api/friend', function (req, res) {
@@ -20,6 +24,8 @@ app.post('/api/friend', function (req, res) {
     calculateDifferance()
     res.sendfile("./data/friends.json")
 })
+
+
 app.post('/test', function(request, response){
     console.log(request.body.scores);
     response.end(request.body.scores);
