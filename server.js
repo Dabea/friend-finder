@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
  
 app.get('/', function (req, res) {
-    res
+    res.send("Home Page")
 })
 
 app.get('/api/friend', function (req, res) {
@@ -29,7 +29,7 @@ app.post('/test', function(request, response){
 app.listen(3000)
 
 const scoreA =[5,1,4,4,5,1,2,5,4,1];
-const scoreB =[5,2,1,4,5,1,2,5,4,1]
+const scoreB =[5,2,1,4,5,1,2,5,4,1];
 
 
 
