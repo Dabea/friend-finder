@@ -28,7 +28,7 @@ app.post('/api/friends', function (req, res) {
 
 
  
-app.listen(3000)
+app.listen(PORT)
 
 
 
