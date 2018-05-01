@@ -1,6 +1,6 @@
 [{
     "name":"Ahmed",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"http://www.placepuppy.net/400/250",
     "scores":[
         5,
         1,
@@ -16,19 +16,34 @@
   },
   {
     "name":"Joe",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"http://www.placepuppy.net/400/350",
     "scores":[
         5,
-        1,
-        4,
+        5,
+        5,
         4,
         1,
         1,
         2,
         5,
         2,
-        1
+        5
+      ]
+  },
+  {
+    "name":"Sama",
+    "photo":"http://www.placepuppy.net/450/250",
+    "scores":[
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
       ]
   }
-
 ]
